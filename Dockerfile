@@ -7,7 +7,8 @@ COPY . ./
 ENV PORT 5001
 EXPOSE $PORT
 # CMD ["node", "index.js"] ## changed to below after intro of volumes
-CMD ["npm", "run", "dev"]
+# CMD ["npm", "run", "dev"] ## switched to belo with control of evnvironments using docker-compose
+CMD ["node", "index.js"]
 
 
 
