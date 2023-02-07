@@ -5,7 +5,12 @@ dotenv.config();
 const port = process.env.PORT || 5001;
 
 app.get('/', (req, res) => {
-    res.send('<h2>:: !! ::Node Docker:: !! :</h2>')
+    // res.send('<h2>:: !! ::Node Docker:: !! :</h2>')
+    res.send(`
+    <h2>:: !! ::Node Docker:: !! ::</h2>
+    <br />
+    <h4>Development</h4>
+    `)
 })
 
 app.listen(port, () => {
