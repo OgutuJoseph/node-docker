@@ -20,4 +20,3 @@ CMD ["node", "index.js"]
 
 
 
-$
